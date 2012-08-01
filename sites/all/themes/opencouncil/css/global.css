@@ -1,0 +1,78 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* Search box */
+#block-search-form input.form-text {
+    width:80%;
+}
+
+/* Main menu */
+#zone-branding-wrapper {
+    /*
+    fix for ie z-index problem, add this on the top container that holds your menu block
+    */
+    position:relative;
+    z-index:2
+}
+#block-system-main-menu {
+    margin-bottom:1em;
+}
+#block-system-main-menu ul.menu {
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:relative
+}
+#block-system-main-menu ul.menu li a {
+    display: block;
+    line-height: 1em;
+    padding: 0.5em;
+    outline:none;
+    background:#333;
+    color:#FFF;
+    border:1px solid #666;
+}
+#block-system-main-menu ul.menu li a:hover {
+    background:#000;
+    text-decoration:none
+}
+#block-system-main-menu ul.menu li span.over {
+    background:#CCC;
+    color: #000000;
+    display: block;
+    float: right;
+    height: 33px;
+    line-height: 30px;
+    padding: 0 0.5em;
+    text-align: center;
+    cursor:pointer
+}
+#block-system-main-menu ul.menu li span.over:hover {
+    background:#F90;
+    color:#FFF
+}
+#block-system-main-menu ul.menu ul {
+    margin:0;
+    padding:0;
+    display:none;
+}
+#block-system-main-menu ul.menu ul li a {
+    text-indent:0;
+    color:#000;
+    background:#CCC;
+    text-decoration:none;
+}
+#block-system-main-menu ul.menu ul li a:hover {
+    background: #EBEBEB
+}
+#block-system-main-menu ul.menu ul li a.last {
+    border-bottom: none;
+}
+
+/* doit-box */
+.doit-box {
+   border:solid 1px #000;
+   background:#fafafa;
+   font-size:150%;
+   padding:1em;
+}

@@ -1,0 +1,29 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+/* Search box */
+#block-search-form input.form-text {
+    width:auto;
+}
+
+#block-search-form {
+    position:absolute;
+    top:20px;
+    right:0;
+}
+
+/* Main menu */
+#block-system-main-menu {
+    background: #333333;
+}
+#block-system-main-menu li ul li {
+    width: 200px;
+}
+#block-system-main-menu li {
+    float: left;
+    position: relative;
+}
+#block-system-main-menu li ul {
+    left: 0px;
+    position: absolute !important;
+    z-index: 999;
+}
