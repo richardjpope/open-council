@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the feature-do-it-link feature.
+ */
+
+include_once 'feature_do_it_link.features.inc';

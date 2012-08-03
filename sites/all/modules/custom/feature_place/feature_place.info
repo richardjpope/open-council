@@ -1,0 +1,14 @@
+name = feature-place
+core = 7.x
+package = Features
+dependencies[] = date
+dependencies[] = features
+dependencies[] = field_sql_storage
+dependencies[] = location_cck
+dependencies[] = node
+dependencies[] = text
+features[features_api][] = api:1
+features[field][] = node-place-field_place_introduction
+features[field][] = node-place-field_place_location
+features[field][] = node-place-field_place_opening_time
+features[node][] = place
